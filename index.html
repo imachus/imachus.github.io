@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>雅楽 AI唱歌チェッカー</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Shippori+Mincho:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>お稽古しましょ！唱歌チェッカー</h1>
+            <p>お手本の唱歌とあなたの唱歌を波形で比較します</p>
+        </header>
+
+        <main>
+            <section class="control-panel">
+                <div class="card model-section">
+                    <h2>1. お手本を録音</h2>
+                    <div class="visualizer-container" id="model-visualizer">
+                        <canvas id="canvas-model"></canvas>
+                    </div>
+                    <div class="controls">
+                        <button id="btn-record-model" class="btn primary">録音開始</button>
+                        <button id="btn-stop-model" class="btn secondary" disabled>停止</button>
+                        <button id="btn-play-model" class="btn secondary" disabled>再生</button>
+                        <button id="btn-pause-model" class="btn secondary" disabled>一時停止</button>
+                        <button id="btn-save-model" class="btn secondary" disabled>保存 (MP3)</button>
+                    </div>
+                    <div class="upload-container">
+                        <label for="file-upload-model" class="btn secondary upload-btn">
+                            📂 MP3をアップロード
+                        </label>
+                        <input type="file" id="file-upload-model" accept="audio/*" style="display: none;">
+                    </div>
+                    <p class="status" id="status-model">待機中</p>
+                </div>
+
+                <div class="card user-section">
+                    <h2>2. 歌って比較</h2>
+                    <div class="visualizer-container" id="user-visualizer">
+                        <canvas id="canvas-user"></canvas>
+                    </div>
+                    <div class="controls">
+                        <button id="btn-record-user" class="btn primary">比較開始</button>
+                        <button id="btn-stop-user" class="btn secondary" disabled>停止</button>
+                        <button id="btn-play-user" class="btn secondary" disabled>再生</button>
+                        <button id="btn-pause-user" class="btn secondary" disabled>一時停止</button>
+                    </div>
+                    <p class="status" id="status-user">待機中</p>
+                </div>
+            </section>
+
+            <section class="result-panel">
+                <div class="result-container">
+                    <h3>比較結果</h3>
+                    <div class="visualizer-container result-visualizer">
+                        <canvas id="canvas-result"></canvas>
+                    </div>
+                    <div class="legend">
+                        <span class="dot model-dot"></span> 手本 (金)
+                        <span class="dot user-dot"></span> あなた (赤)
+                    </div>
+                </div>
+
+                <div class="score-display">
+                    <h3>一致率スコア</h3>
+                    <div class="score-circle">
+                        <span id="score-value">--</span><span class="unit">%</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/lamejs@1.2.1/lame.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
