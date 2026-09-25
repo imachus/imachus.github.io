@@ -1,0 +1,467 @@
+{
+  "title": "まだ ここから",
+  "song": {
+    "audio": "assets/song.m4a",
+    "lyrics_srt": "assets/lyrics_timed.srt",
+    "duration": 314.52
+  },
+  "character": "the same protagonist as in the reference image (a Japanese person in their early fifties, a few strands of grey hair, gentle eyes); keep face, hairstyle, body type and overall look identical to the reference",
+  "style": "cinematic live-action music video still, 35mm film look, soft natural light, warm muted colour grade, subtle film grain, quiet Japanese suburban town, photorealistic, shallow depth of field, 16:9 widescreen",
+  "negative": "text, subtitles, watermark, logo, distorted face, extra fingers, deformed hands, cartoon, anime, oversaturated",
+  "sections": [
+    {
+      "id": "intro",
+      "label": "Intro",
+      "start": 0.0,
+      "lyrics": [],
+      "shots": [
+        {
+          "id": "s01_sunrise_back",
+          "note": "朝日を見つめる主人公（後ろ姿）",
+          "image": "Early morning on a grassy riverside embankment in a small Japanese town. The protagonist stands alone seen from behind, silhouetted, watching the sun rise over the river and distant rooftops. Pale gold sky, thin mist over the water.",
+          "motion": "Very slow push-in from behind the protagonist. The sun edges above the horizon; the scene is almost still, only faint mist drifting. Calm, contemplative."
+        }
+      ]
+    },
+    {
+      "id": "verse1",
+      "label": "Verse 1",
+      "start": 10.0,
+      "lyrics": [
+        "いつからだろう",
+        "夢の話をすると",
+        "少し照れながら",
+        "笑うようになったのは",
+        "鏡の中には",
+        "知らない白い髪",
+        "それでもこの目は",
+        "あの日と同じまま",
+        "遠回りばかり",
+        "してきた気がするけど",
+        "振り返れば全部",
+        "今日へ続いていた"
+      ],
+      "shots": [
+        {
+          "id": "s02_sunrise_face",
+          "note": "朝日を浴びる横顔",
+          "image": "Close-up profile of the protagonist on the riverside embankment at sunrise, warm golden light on the face, eyes calm and a little wistful, looking at the horizon.",
+          "motion": "Subtle handheld drift. The protagonist breathes slowly, blinks once, a faint shy smile appears then fades."
+        },
+        {
+          "id": "s03_mirror_grey_hair",
+          "note": "鏡で白髪に気づく",
+          "image": "Small home washroom in the morning. The protagonist looks into the mirror, noticing grey hairs at the temple, fingers touching the hair. Seen over the shoulder with the reflection in focus.",
+          "motion": "The protagonist lifts a hand and brushes the grey hair at the temple, pauses, then gives a small resigned, gentle smile to the reflection."
+        },
+        {
+          "id": "s04_find_photo",
+          "note": "片づけ中に昔の写真を見つける",
+          "image": "A quiet room during tidying: open closet, cardboard boxes. The protagonist kneels on the tatami floor and lifts an old faded photograph out of a box, dust in the soft window light.",
+          "motion": "The protagonist slowly lifts the photograph closer to their face, dust particles float in the sunbeam, expression turns to surprised nostalgia."
+        },
+        {
+          "id": "s05_old_photo",
+          "note": "若い頃に歌っていた写真",
+          "image": "Close-up of a faded 1990s film photograph held in weathered hands: the protagonist in their twenties (clearly younger, same face) singing passionately into a microphone on a tiny live-house stage, colourful stage lights.",
+          "motion": "Slow push-in on the photograph; the hands tremble very slightly; light flickers across the glossy surface."
+        },
+        {
+          "id": "s06_notebook_open",
+          "note": "書きかけの歌詞ノートを開く。まだ歌えない",
+          "image": "The protagonist sits by the window holding a worn, old notebook open, pages filled with handwritten unfinished Japanese song lyrics and crossed-out words. Nostalgic expression.",
+          "motion": "The protagonist turns a page, lips part as if to sing, but hesitate and close again; a soft, bittersweet smile."
+        }
+      ]
+    },
+    {
+      "id": "pre1",
+      "label": "Pre-Chorus",
+      "start": 46.516,
+      "lyrics": [
+        "守るものが増えるたび",
+        "あきらめることも覚えた",
+        "だけど心の片隅で",
+        "消えない灯りがある"
+      ],
+      "shots": [
+        {
+          "id": "s07_commute_phone",
+          "note": "仕事帰り、家族からの連絡に応える",
+          "image": "Evening after work, the protagonist in plain work clothes walks out of a small suburban train station at dusk, reading a message from family on a smartphone, streetlights just turning on.",
+          "motion": "The protagonist walks slowly, types a short reply with a tired but warm smile, then puts the phone away and keeps walking."
+        },
+        {
+          "id": "s08_errands",
+          "note": "日々の用事をこなす",
+          "image": "Dusk on a small apartment balcony, the protagonist takes in dried laundry while a supermarket bag sits by the door; ordinary daily life, orange evening sky.",
+          "motion": "The protagonist folds a towel over one arm and pauses to glance at the fading sky for a moment."
+        },
+        {
+          "id": "s09_night_notebook",
+          "note": "夜、眠る前にノートをもう一度開く",
+          "image": "Night, a small bedroom lit only by a warm bedside lamp. The protagonist sits on the edge of the bed in pyjamas, the old lyric notebook open on the lap.",
+          "motion": "Slow push-in. The protagonist gently traces the faded handwriting with a fingertip."
+        },
+        {
+          "id": "s10_humming",
+          "note": "小さく鼻歌を歌う",
+          "image": "Close-up of the protagonist's face in warm lamplight at night, eyes half closed, humming softly to themself, the notebook edge visible in the foreground.",
+          "motion": "The protagonist hums quietly, head swaying very slightly with the melody, a small peaceful smile."
+        }
+      ]
+    },
+    {
+      "id": "chorus1",
+      "label": "Chorus 1",
+      "start": 59.521,
+      "lyrics": [
+        "まだ　ここから",
+        "何度だって始められる",
+        "遅すぎるなんて",
+        "誰が決めたのだろう",
+        "転んだ数だけ",
+        "優しくなれたなら",
+        "それも悪くない人生さ",
+        "胸を張らなくていい",
+        "格好悪くてもいい",
+        "昨日より少しだけ",
+        "前を向いていればいい",
+        "まだ　ここから",
+        "僕らの時間は続いてく",
+        "人生はきっと",
+        "これから面白くなる"
+      ],
+      "shots": [
+        {
+          "id": "s11_out_the_door",
+          "note": "「まだ ここから」ノートを持って外へ",
+          "image": "Early morning, the protagonist steps out of the front door of a modest Japanese house holding the old notebook, determined expression, soft morning light on the street.",
+          "motion": "The protagonist closes the door behind them, takes a breath, and walks out toward the camera with purpose."
+        },
+        {
+          "id": "s12_first_try",
+          "note": "誰もいない場所で歌うが、うまく歌えず照れ笑い",
+          "image": "An empty riverside at dawn, nobody around. The protagonist stands holding the notebook, mouth open mid-note, trying to sing out loud for the first time in years.",
+          "motion": "The protagonist sings a phrase, the voice falters, stops, looks around embarrassed, scratches the back of the head and laughs shyly."
+        },
+        {
+          "id": "s12b_shy_laugh",
+          "note": "照れ笑い（寄り）",
+          "image": "Close-up of the protagonist at the empty dawn riverside, covering the mouth with the back of the hand, laughing at themself, cheeks slightly flushed, notebook in the other hand.",
+          "motion": "The protagonist laughs softly and shakes the head, then looks back down at the notebook with renewed resolve."
+        },
+        {
+          "id": "s13_practice_again",
+          "note": "翌日また練習する",
+          "image": "Same riverside the next morning, slightly different light. The protagonist practises again, notebook in one hand, the other hand keeping rhythm, more relaxed than before.",
+          "motion": "The protagonist sings steadily, eyes glancing between the notebook and the river, body gently swaying."
+        },
+        {
+          "id": "s13b_passersby",
+          "note": "練習の日々（通勤の人が通り過ぎる）",
+          "image": "Morning riverside path, a cyclist and a dog-walker pass by in soft focus while the protagonist keeps practising singing from the notebook, unbothered.",
+          "motion": "The cyclist passes through the foreground; the protagonist nods politely, then continues singing."
+        },
+        {
+          "id": "s14_sunrise_moves",
+          "note": "朝日の画面に少しずつ動きが生まれる",
+          "image": "Wide shot of the same riverside sunrise as the opening, but now alive: birds taking off, tall grass waving, a jogger in the distance, the protagonist small in frame singing toward the sun.",
+          "motion": "Slow crane-up. Birds fly across the sun, grass ripples in the breeze, clouds drift; the whole scene gently comes to life."
+        },
+        {
+          "id": "s14b_sing_to_sun",
+          "note": "朝日に向かって歌う（寄り）",
+          "image": "Close-up of the protagonist singing toward the rising sun, face glowing in golden light, eyes bright, breath visible in the cool morning air.",
+          "motion": "Slow push-in as the protagonist holds a long note, sunlight flaring across the lens."
+        }
+      ]
+    },
+    {
+      "id": "verse2",
+      "label": "Verse 2",
+      "start": 113.457,
+      "lyrics": [
+        "若い頃なら",
+        "一晩で忘れたこと",
+        "今ではなぜだか",
+        "胸に残ってしまう",
+        "友の名前にも",
+        "会えない人が増えて",
+        "時間というものを",
+        "少し怖くもなる",
+        "「もしあの時」と",
+        "思う夜もあるけれど",
+        "選ばなかった道は",
+        "誰にもわからない"
+      ],
+      "shots": [
+        {
+          "id": "s15_friends_photos",
+          "note": "昔の友人たちの写真を見る",
+          "image": "Close-up of an open old photo album on a low table: faded snapshots of a group of young friends in their twenties laughing together, a band rehearsing. The protagonist's fingers rest on one photo.",
+          "motion": "Slow pan across the photographs; a finger lingers on one friend's face."
+        },
+        {
+          "id": "s16_window_night",
+          "note": "会えなくなった人を思う夜。窓辺で悔やむ",
+          "image": "Night, the protagonist sits alone by a window, knees drawn up, cool blue moonlight and distant city lights, a regretful, thoughtful expression.",
+          "motion": "Static camera. The protagonist exhales slowly and rests the head against the window frame; curtain moves slightly in the breeze."
+        },
+        {
+          "id": "s17_phone_message",
+          "note": "友人の近況がスマホに届く",
+          "image": "The protagonist, still by the night window, looks down at a glowing smartphone showing a message and a photo from an old friend; the screen light illuminates a softening face.",
+          "motion": "The phone lights up; the protagonist's expression slowly shifts from melancholy to a gentle, surprised smile."
+        },
+        {
+          "id": "s18_short_reply",
+          "note": "短い返事を送る",
+          "image": "Close-up of the protagonist's thumb typing a short reply on the smartphone, face softly lit, a small smile, window and night sky in the background.",
+          "motion": "The protagonist taps send, lowers the phone, and looks up at the night sky with a lighter expression."
+        }
+      ]
+    },
+    {
+      "id": "pre2",
+      "label": "Pre-Chorus 2",
+      "start": 146.649,
+      "lyrics": [
+        "手に入らなかったものを",
+        "数えるのはもうやめよう",
+        "ここまで歩いた自分を",
+        "今日は少し認めよう"
+      ],
+      "shots": [
+        {
+          "id": "s19_dates_pile_up",
+          "note": "練習した日付がノートに増えていく",
+          "image": "Top-down close-up of the notebook: a page filled with handwritten practice dates and small check marks, a pencil lying across it, morning light.",
+          "motion": "Pages flip forward one after another, each filled with more dates and check marks."
+        },
+        {
+          "id": "s20_self_recognition",
+          "note": "続けてきた自分に気づく",
+          "image": "The protagonist sits at a kitchen table looking down at the notebook full of dates, a quiet realisation dawning, a proud but modest smile.",
+          "motion": "The protagonist closes the notebook gently, rests a hand on the cover, and nods to themself."
+        },
+        {
+          "id": "s21_recital_flyer",
+          "note": "地域の小さな発表会の案内を見つける",
+          "image": "A community centre bulletin board with a hand-made flyer for a small local music recital (flyer text unreadable, just shapes). The protagonist stands in front of it, leaning in to read.",
+          "motion": "Slow push-in from over the protagonist's shoulder to the flyer; the protagonist hesitates, then steps closer."
+        },
+        {
+          "id": "s22_apply",
+          "note": "参加を申し込む",
+          "image": "At a community centre reception counter, the protagonist hands a filled-in application form to a friendly staff member, slightly nervous smile.",
+          "motion": "The protagonist hands over the form, gives a small bow, and lets out a relieved breath."
+        }
+      ]
+    },
+    {
+      "id": "chorus2",
+      "label": "Chorus 2",
+      "start": 157.34,
+      "lyrics": [
+        "まだ　ここから",
+        "夢を見てもかまわない",
+        "五十を越えたって",
+        "心まで老けちゃいない",
+        "失ったものより",
+        "残っているものを",
+        "この両手でもう一度抱こう",
+        "急がなくてもいい",
+        "誰かと比べなくていい",
+        "自分だけの速度で",
+        "歩いていけばいい",
+        "まだ　ここから",
+        "新しい景色に会える",
+        "人生はきっと",
+        "これから面白くなる"
+      ],
+      "shots": [
+        {
+          "id": "s23_park",
+          "note": "公園で歌う",
+          "image": "A quiet neighbourhood park in dappled afternoon light, the protagonist sings freely under a large tree, notebook tucked under the arm, eyes closed.",
+          "motion": "Slow orbit around the protagonist; leaves flicker overhead; the protagonist sings with growing confidence."
+        },
+        {
+          "id": "s24_car",
+          "note": "車の中で歌う",
+          "image": "Inside a parked small car, the protagonist sings behind the steering wheel, sunlight through the windshield, lyric notebook resting on the dashboard.",
+          "motion": "The protagonist sings expressively, one hand tapping the steering wheel in rhythm."
+        },
+        {
+          "id": "s25_rehearsal_room",
+          "note": "誰もいない練習室",
+          "image": "A small empty rental rehearsal room with soundproof walls, one microphone on a stand. The protagonist sings into the mic alone, focused.",
+          "motion": "Slow push-in; the protagonist adjusts the mic stand and sings a long, steady note."
+        },
+        {
+          "id": "s25b_own_pace",
+          "note": "自分の速度で歩きながら口ずさむ",
+          "image": "A quiet residential street in the afternoon, the protagonist walks at an easy pace humming, while younger people hurry past on both sides.",
+          "motion": "Tracking shot; people rush past in a blur while the protagonist walks steadily at their own pace, smiling."
+        },
+        {
+          "id": "s26_to_the_venue",
+          "note": "発表会当日、会場へ向かう",
+          "image": "Recital day, the protagonist in a neat modest shirt walks along a sunny street toward a small community hall, carrying the notebook, visibly nervous.",
+          "motion": "Tracking shot beside the protagonist; they take a deep breath and keep walking forward."
+        },
+        {
+          "id": "s27_no_turning_back",
+          "note": "緊張しているが、引き返さない",
+          "image": "In front of the community hall entrance, the protagonist stops, hand hovering near the glass door, a moment of hesitation.",
+          "motion": "The protagonist half-turns as if to leave, stops, turns back, and pushes the door open."
+        }
+      ]
+    },
+    {
+      "id": "bridge",
+      "label": "Bridge",
+      "start": 201.144,
+      "lyrics": [
+        "若さはもう",
+        "戻ってこないけれど",
+        "若い僕には",
+        "見えなかったものがある",
+        "誰かの痛みも",
+        "小さな幸せも",
+        "今なら少し",
+        "わかる気がする",
+        "それならきっと",
+        "歳を重ねることも",
+        "悪いことばかりじゃない"
+      ],
+      "shots": [
+        {
+          "id": "s28_young_performer",
+          "note": "舞台袖、緊張する若い出演者",
+          "image": "Dim backstage wings of a small community hall stage. A young performer around twenty holding a guitar sits on a folding chair, hands shaking, clearly nervous. The protagonist stands nearby.",
+          "motion": "The young performer grips the guitar neck, breathing quickly; the protagonist notices and turns toward them."
+        },
+        {
+          "id": "s29_its_ok",
+          "note": "「大丈夫」と微笑む",
+          "image": "Backstage, the protagonist crouches beside the young performer, smiling warmly and saying something reassuring, a hand on their shoulder.",
+          "motion": "The protagonist softly says a word of encouragement and smiles; the young performer's shoulders relax and they smile back."
+        },
+        {
+          "id": "s30_audience",
+          "note": "静かに耳を傾ける客席",
+          "image": "The small audience in a community hall: an elderly couple, a mother with a child, a few office workers, listening quietly with gentle expressions, warm soft light.",
+          "motion": "Slow lateral dolly across the audience faces; someone smiles, the child leans on the mother."
+        },
+        {
+          "id": "s31_seeing_faces",
+          "note": "若い頃には見えなかった人の表情が今は見える",
+          "image": "From the side of the stage curtain, the protagonist looks out at the audience, face lit by stage spill light, eyes moist with quiet understanding.",
+          "motion": "Slow push-in on the protagonist's face as a tender, understanding smile forms."
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "label": "Final Chorus",
+      "start": 234.574,
+      "lyrics": [
+        "さあ　ここから",
+        "もう一度始めてみよう",
+        "笑われたっていい",
+        "失敗したっていい",
+        "いつかこの日を",
+        "振り返った時に",
+        "「あの日やってよかった」と",
+        "笑えればいい",
+        "まだ　ここから",
+        "僕らは終わっちゃいない",
+        "心が動くなら",
+        "そこがスタートライン",
+        "春も夏も秋も",
+        "いくつ越えてきたけど",
+        "見たことのない明日は",
+        "まだ残っている",
+        "まだ　ここから",
+        "僕らの時間は続いてく"
+      ],
+      "shots": [
+        {
+          "id": "s32_step_on_stage",
+          "note": "小さな舞台に立つ",
+          "image": "The protagonist walks onto a small community hall stage under a single warm spotlight toward a microphone stand, notebook left behind, hands slightly trembling.",
+          "motion": "The protagonist walks to the microphone, adjusts it, and takes a nervous breath."
+        },
+        {
+          "id": "s33_trembling_start",
+          "note": "出だしは少し震える",
+          "image": "Medium close-up of the protagonist singing into the microphone on stage, first notes, eyes a little unsure, fingers tight on the mic stand.",
+          "motion": "The protagonist begins singing, voice visibly tentative, then closes eyes briefly to steady themself."
+        },
+        {
+          "id": "s34_singing_straight",
+          "note": "次第にまっすぐ歌えるようになる",
+          "image": "The protagonist sings with open, steady eyes looking straight at the audience, warm spotlight, emotional and sincere expression.",
+          "motion": "Slow push-in; the protagonist's posture straightens and they sing with conviction."
+        },
+        {
+          "id": "s34b_listeners",
+          "note": "聴き入る客席",
+          "image": "Audience in the small community hall listening intently: an elderly woman with hands clasped, the young performer from backstage watching from the side with admiration.",
+          "motion": "Slow rack focus from one listener's moved face to another."
+        },
+        {
+          "id": "s35_wide_stage",
+          "note": "客席から見た舞台",
+          "image": "Wide shot from the back of the small hall: rows of audience silhouettes in the foreground, the protagonist singing alone on the modest stage in a pool of warm light.",
+          "motion": "Slow dolly forward down the aisle toward the stage."
+        },
+        {
+          "id": "s35b_climax_closeup",
+          "note": "まっすぐ歌う（寄り・クライマックス）",
+          "image": "Tight close-up of the protagonist singing the final chorus with full heart, eyes shining, spotlight rim light, a single tear of joy.",
+          "motion": "The protagonist sings powerfully and sincerely; the camera slowly orbits a little around the face."
+        },
+        {
+          "id": "s36_applause",
+          "note": "温かな拍手、照れ笑い",
+          "image": "The song has just ended: the small audience claps warmly (no cheering), the protagonist on stage bows, then straightens with a bashful, happy smile.",
+          "motion": "The audience applauds gently; the protagonist bows, rises, and laughs shyly, scratching the back of the head."
+        }
+      ]
+    },
+    {
+      "id": "outro",
+      "label": "ラスト",
+      "start": 289.548,
+      "lyrics": [
+        "人生はきっと",
+        "人生はきっと",
+        "これから",
+        "面白くなる"
+      ],
+      "shots": [
+        {
+          "id": "s37_next_sunrise",
+          "note": "翌朝、冒頭と同じ場所で朝日を見る",
+          "image": "The next morning, exactly the same riverside embankment and sunrise as the opening, the protagonist stands watching the sun, now with a calm, content face.",
+          "motion": "Slow push-in matching the opening shot; the protagonist gazes at the sunrise for a moment, then smiles."
+        },
+        {
+          "id": "s37b_smile",
+          "note": "朝日を見て微笑む（寄り）",
+          "image": "Close-up of the protagonist's face at sunrise on the riverside, a quiet, contented smile, golden light, the same framing as the opening close-up.",
+          "motion": "The protagonist closes the eyes for a moment, breathes in the morning air, and opens them with a smile."
+        },
+        {
+          "id": "s38_walk_away",
+          "note": "振り返って歩き出す後ろ姿で終わる",
+          "image": "The protagonist, seen from behind, walks away along the riverside path into the bright morning light toward the town, notebook in hand.",
+          "motion": "The protagonist turns and walks away from the camera with steady steps into the new day; the camera stays still as they grow smaller in the golden light."
+        }
+      ]
+    }
+  ]
+}
