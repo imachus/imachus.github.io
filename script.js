@@ -363,7 +363,6 @@ function updateUIState(type, isRecording) {
             btnPlayModel.disabled = true;
             btnPauseModel.disabled = true;
             btnSaveModel.disabled = true;
-            fileUploadModel.disabled = true;
         }
 
         // Disable other section while recording
@@ -381,6 +380,9 @@ function updateUIState(type, isRecording) {
         // Disable other section while recording
         btnRecordModel.disabled = isRecording;
     }
+
+    // Block uploading a new model while either recording is in progress
+    fileUploadModel.disabled = isRecording;
 }
 
 function drawRecordingVisualizer(canvasId) {
