@@ -59,9 +59,23 @@ document.addEventListener('DOMContentLoaded', () => {
     btnPauseUser.addEventListener('click', () => pausePlayback('user'));
 });
 
+// Upload limits (guard against oversized files freezing the tab)
+const MAX_UPLOAD_BYTES = 50 * 1024 * 1024; // 50MB
+
 async function handleFileUpload(event) {
     const file = event.target.files[0];
+    // Allow re-selecting the same file later
+    event.target.value = '';
     if (!file) return;
+
+    if (file.type && !file.type.startsWith('audio/')) {
+        alert("音声ファイルを選択してください。");
+        return;
+    }
+    if (file.size > MAX_UPLOAD_BYTES) {
+        alert("ファイルサイズが大きすぎます（上限 50MB）。");
+        return;
+    }
 
     try {
         await initAudioContext();
@@ -263,9 +277,21 @@ async function startRecording(type) {
                 recordingTimeout = null;
             }
 
-            const audioBlob = new Blob(audioChunks, { type: 'audio/webm' });
-            const arrayBuffer = await audioBlob.arrayBuffer();
-            const audioBuffer = await audioContext.decodeAudioData(arrayBuffer);
+            // Release the microphone first so it is never left open on errors
+            stopStream(currentStream);
+            cancelAnimationFrame(requestAnimationId);
+            currentStream = null;
+
+            let audioBuffer;
+            try {
+                const audioBlob = new Blob(audioChunks, { type: mediaRecorder.mimeType || 'audio/webm' });
+                const arrayBuffer = await audioBlob.arrayBuffer();
+                audioBuffer = await audioContext.decodeAudioData(arrayBuffer);
+            } catch (err) {
+                console.error("Error decoding recording:", err);
+                alert("録音データの読み込みに失敗しました。");
+                return;
+            }
 
             if (type === 'model') {
                 modelBuffer = audioBuffer;
@@ -283,11 +309,6 @@ async function startRecording(type) {
                     calculateScore();
                 }
             }
-
-            // Clean up stream and animation
-            stopStream(currentStream);
-            cancelAnimationFrame(requestAnimationId);
-            currentStream = null;
         });
 
         mediaRecorder.start();
@@ -301,6 +322,10 @@ async function startRecording(type) {
         }, 180000);
 
     } catch (err) {
+        // Release the microphone if setup failed after access was granted
+        stopStream(currentStream);
+        cancelAnimationFrame(requestAnimationId);
+        currentStream = null;
         console.error("Error accessing microphone:", err);
         alert("マイクへのアクセスが許可されていません。設定を確認してください。");
     }

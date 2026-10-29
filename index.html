@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GitHub Pages ではレスポンスヘッダーを設定できないため meta で指定 -->
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self'; base-uri 'none'; form-action 'none'">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
     <title>雅楽 AI唱歌チェッカー</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,7 +42,7 @@
                         <label for="file-upload-model" class="btn secondary upload-btn">
                             📂 MP3をアップロード
                         </label>
-                        <input type="file" id="file-upload-model" accept="audio/*" style="display: none;">
+                        <input type="file" id="file-upload-model" accept="audio/*" hidden>
                     </div>
                     <p class="status" id="status-model">待機中</p>
                 </div>
@@ -79,7 +83,7 @@
             </section>
         </main>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/lamejs@1.2.1/lame.min.js"></script>
+    <script src="vendor/lamejs/lame.min.js"></script>
     <script src="script.js"></script>
 </body>
 
